@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sara</title>
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header" id="home">
+            <nav class="menu">
+                <div class="menu__logo-wrapper">
+                    <a class="menu__logo" href="#home">
+                        <h1>SARA <span class="sr-only">wear store</span></h1>
+                    </a>
+                </div>
+                <div class="menu__links" id="menu-links">
+                    <div class="menu__item">
+                        <a href="#home" class="menu__link active">Home</a>
+                    </div>
+                    <div class="menu__item">
+                        <a href="#featured" class="menu__link">Featured</a>
+                    </div>
+                    <div class="menu__item">
+                        <a href="#arrivals" class="menu__link">New</a>
+                    </div>
+                    <div class="menu__item">
+                        <a href="#subscription" class="menu__link">Subscribe</a>
+                    </div>
+                </div>
+                <div class="menu__icons">
+                    <a href="#">
+                        <i class="fas fa-shopping-cart menu__cart"><span class="menu__counter">0</span></i></a>
+                    <i class="fas fa-bars menu__toggle" id="hamburger"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <section class="home section">
+                <div class="home__wrapper">
+                    <div class="home__content">
+                        <h2 class="home__title">New<br> <span class="home__subtitle">arrivals</span></h2>
+                        <a class="button button--home">Go shopping</a>
+                    </div>
+                    <img class="home__image" src="images/home.png" alt="
+                woman in fashionable clothes">
+                </div>
+            </section>
+            <section class="collection section">
+                <div class="collection__wrapper">
+                    <div class="collection__men collection__box">
+                        <div class="collection__info">
+                            <h3 class="collection__title">Men <br><span class="collection__subtitle">Backpack</span>
+                            </h3>
+                            <a class="collection__view" href="#">View collection</a>
+                        </div>
+                        <img class="collection__image" src="images/backpackMan.png" alt="Men with backpack">
+                    </div>
+                    <div class="collection__women collection__box">
+                        <div class="collection__info">
+                            <h3 class="collection__title">Women <br><span class="collection__subtitle">Backpack</span>
+                            </h3>
+                            <a class="collection__view" href="#">View collection</a>
+                        </div>
+                        <img class="collection__image" src="images/backpackWoman.png" alt="woman with backpack">
+                    </div>
+                </div>
+            </section>
+
+            <section class="featured section" id="featured">
+                <div class="featured__text">
+                    <h1 class="featured__title">Featured Products</h1>
+                    <a class="featured__view" href="#">View All</a>
+                </div>
+                <div class="featured__items">
+                    <div class="featured__card">
+                        <a class="featured__link" href="#">
+                            <div class="featured__item">
+                                <img class="featured__image" src="images/feature1.png" alt="headphones">
+                                <span class="featured__new">NEW</span>
+                            </div>
+                            <div class="featured__data">
+                                <p class="featured__name">Headphones One Black</p>
+                                <p class="featured__price">$29</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="featured__card">
+                        <a class="featured__link" href="">
+                            <div class="featured__item">
+                                <img class="featured__image" src="images/feature2.png" alt="speaker">
+                                <span class="featured__new">NEW</span>
+                            </div>
+                            <div class="featured__data">
+                                <p class="featured__name">Speaker Beats Pill</p>
+                                <p class="featured__price">$199</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="featured__card">
+                        <a class="featured__link" href="">
+                            <div class="featured__item">
+                                <img class="featured__image" src="images/feature3.png" alt="earpods">
+                                <span class="featured__new">NEW</span>
+                            </div>
+                            <div class="featured__data">
+                                <p class="featured__name">Apple Air Pods</p>
+                                <p class="featured__price">$122</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="featured__card">
+                        <a class="featured__link" href="">
+                            <div class="featured__item">
+                                <img class="featured__image" src="images/feature4.png" alt="smartwatch">
+                                <span class="featured__new">NEW</span>
+                            </div>
+                            <div class="featured__data">
+                                <p class="featured__name">Smartwatch F9 Negro</p>
+                                <p class="featured__price">$99</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="special section">
+                <div class="special__wrapper">
+                    <div class="special__data">
+                        <h2 class="special__title">Special Offer</h2>
+                        <p class="special__subtitle">Special offerts discounts for women this week only</p>
+                        <a class="button button--special">Shop Now</a>
+                    </div>
+                </div>
+            </section>
+            <section class="arrivals section" id="arrivals">
+                <div class="arrivals__text">
+                    <h1 class="arrivals__title">New Arrivals</h1>
+                    <a class="arrivals__view" href="#">View All</a>
+                </div>
+                <div class="arrivals__items">
+                    <div class="arrivals__item">
+                        <img class="arrivals__image" src="./images/new1.png" alt="">
+                        <div class="arrivals__hover">
+                            <a class="button button--arrivals" href="">Wiew product</a>
+                        </div>
+                    </div>
+                    <div class="arrivals__item">
+                        <img class="arrivals__image" src="./images/new2.png" alt="">
+                        <div class="arrivals__hover">
+                            <a class="button button--arrivals" href="">Wiew product</a>
+                        </div>
+                    </div>
+                    <div class="arrivals__item">
+                        <img class="arrivals__image" src="./images/new3.png" alt="">
+                        <div class="arrivals__hover">
+                            <a class="button button--arrivals" href="">Wiew product</a>
+                        </div>
+                    </div>
+                    <div class="arrivals__item">
+                        <img class="arrivals__image" src="./images/new4.png" alt="">
+                        <div class="arrivals__hover">
+                            <a class="button button--arrivals" href="">Wiew product</a>
+                        </div>
+                    </div>
+                    <div class="arrivals__item">
+                        <img class="arrivals__image" src="./images/new5.png" alt="">
+                        <div class="arrivals__hover">
+                            <a class="button button--arrivals" href="">Wiew product</a>
+                        </div>
+                    </div>
+                    <div class="arrivals__item">
+                        <img class="arrivals__image" src="./images/new6.png" alt="">
+                        <div class="arrivals__hover">
+                            <a class="button button--arrivals" href="">Wiew product</a>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <section class="subscription section" id="subscription">
+                <div class="subscription__wrapper">
+                    <div class="subscription__text">
+                        <h3 class="subscription__title">Our Newsletter</h3>
+                        <p class="subscription__subtitle">Promotion new products and sales. Directly to your email.</p>
+                    </div>
+                    <form action="#" class="subscription__form">
+                        <div class="subscription__input-wrapper">
+                            <input class="subscription__email" type="email" id="email" name="email" required value="">
+                            <label class="subscription__label" for="email"><span class="subscription__span">Enter your
+                                    email</span></label>
+                        </div>
+                        <button class="button button--subscription" type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </section>
+            <section class="sponsors section">
+                <h3 class="sr-only">Our sponsores</h3>
+                <div class="sponsors__wrapper">
+                    <div class="sponsor__item">
+                        <img class="sponsor__image" src="./images/logo1.png" alt="adidas">
+                    </div>
+                    <div class="sponsor__item">
+                        <img class="sponsor__image" src="./images/logo2.png" alt="cocochanel">
+                    </div>
+                    <div class="sponsor__item">
+                        <img class="sponsor__image" src="./images/logo3.png" alt="beats">
+                    </div>
+                    <div class="sponsor__item">
+                        <img class="sponsor__image" src="./images/logo4.png" alt="louis vuitton
+                        ">
+                    </div>
+
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__wrapper">
+                <div class="footer__firm">
+                    <h3 class="footer__logo">SARA</h3>
+                    <p class="footer__store">Products store</p>
+                    <div class="footer__apps">
+                        <a class="footer__app" href="#">
+                            <img class="footer__image" src="./images/footerstore1.png" alt="">
+                        </a>
+                        <a class="footer__app" href="#">
+                            <img class="footer__image" src="./images/footerstore2.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__box">
+                    <h4 class="footer__title">Explore</h4>
+                    <ul class="footer__links">
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Home</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Featured</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">New</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Subscribe</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__box">
+                    <h4 class="footer__title">Our services</h4>
+                    <ul class="footer__links">
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Pricing</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Free Shipping</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Girft Cards</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__box">
+                    <h4 class="footer__title">Follow</h4>
+                    <ul class="footer__socials">
+                        <li class="footer__item">
+                            <a href="" class="footer__social">
+                                <i class="fab fa-facebook-square footer__social-img"></i>
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__social">
+                                <i class="fab fa-instagram footer__social-img"></i>
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__social">
+                                <i class="fab fa-twitter-square footer__social-img"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__credits">
+                    <p class="footer__info">&#169; 2020 Made with <i class="fas fa-code"></i> by MorfeuszXD</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>
